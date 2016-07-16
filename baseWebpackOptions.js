@@ -21,12 +21,13 @@ module.exports = {
   preLoaders: [
     {
       test: /\.(js|jsx)$/,
-      exclude: /(node_modules|bower_components|dist|lib|vendor)/,
+      exclude: /(node_modules|bower_components|dist|vendor)/,
       loader: 'eslint-loader'
     }
   ],
   alias: {
-    sample: path.resolve(__dirname, 'client/js/sample'),
+    lib: path.resolve(__dirname, 'lib'),
+    demo: path.resolve(__dirname, 'demo')
   },
   plugins: []
 };

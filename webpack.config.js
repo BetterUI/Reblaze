@@ -4,9 +4,9 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  context: path.join(__dirname, './lib'),
+  context: path.join(__dirname, './'),
   entry: {
-    main: './index.js'
+    main: './demo/index.js'
   },
   output: {
     filename: 'bundle.js',
@@ -24,7 +24,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        include: path.join(__dirname, './lib'),
+        include: path.join(__dirname, './'),
         loaders: [
           'react-hot',
           'babel-loader'
@@ -48,7 +48,7 @@ module.exports = {
     .concat(config.plugins),
 
   devServer: {
-    contentBase: './lib',
+    contentBase: './',
     hot: true
   }
 }
