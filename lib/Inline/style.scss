@@ -1,0 +1,10 @@
+.inline {
+
+  button, input, select {
+    display: inline-block !important;
+
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+}

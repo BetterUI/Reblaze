@@ -26,20 +26,7 @@ module.exports = {
     }
   ],
   alias: {
-    actions: path.resolve(__dirname, 'client/js/actions'),
-    components: path.resolve(__dirname, 'client/js/components'),
-    models: path.resolve(__dirname, 'client/js/models'),
-    constants: path.resolve(__dirname, 'client/js/constants'),
-    containers: path.resolve(__dirname, 'client/js/containers'),
-    layouts: path.resolve(__dirname, 'client/js/layouts'),
-    reducers: path.resolve(__dirname, 'client/js/reducers'),
-    routes: path.resolve(__dirname, 'client/js/routes'),
-    middleware: path.resolve(__dirname, 'client/js/middleware'),
-    store: path.resolve(__dirname, 'client/js/store'),
-    resources: path.resolve(__dirname, 'client/js/resources'),
-    utils: path.resolve(__dirname, 'client/js/utils'),
-    styles: path.resolve(__dirname, 'client/styles'),
-    vendor: path.resolve(__dirname, 'client/vendor')
+    sample: path.resolve(__dirname, 'client/js/sample'),
   },
   plugins: []
 };
