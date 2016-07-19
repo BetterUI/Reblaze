@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from 'lib/Card';
+import Card from 'src/Card';
 
 const CardsDemo = () => (
   <div>

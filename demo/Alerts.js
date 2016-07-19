@@ -1,5 +1,5 @@
 import React from 'react';
-import Alert from 'lib/Alert';
+import Alert from 'src/Alert';
 
 const AlertsDemo = () => (
   <div>

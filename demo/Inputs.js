@@ -1,9 +1,9 @@
 import React from 'react';
-import Input from 'lib/Input';
-import FieldGroup from 'lib/FieldGroup';
-import Checkbox from 'lib/Checkbox';
-import FormElement from 'lib/FormElement';
-import FieldSet from 'lib/FieldSet';
+import Input from 'src/Input';
+import FieldGroup from 'src/FieldGroup';
+import Checkbox from 'src/Checkbox';
+import FormElement from 'src/FormElement';
+import FieldSet from 'src/FieldSet';
 
 const InputsDemo = () => (
   <div>

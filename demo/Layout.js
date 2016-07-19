@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import App from 'lib/App';
+import App from 'src/App';
 
 const Layout = ({ children }) => (
   <App>

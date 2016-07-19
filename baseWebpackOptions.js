@@ -26,7 +26,7 @@ module.exports = {
     }
   ],
   alias: {
-    lib: path.resolve(__dirname, 'lib'),
+    src: path.resolve(__dirname, 'src'),
     demo: path.resolve(__dirname, 'demo')
   },
   plugins: []

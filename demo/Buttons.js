@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from 'lib/Button';
-import ButtonGroup from 'lib/ButtonGroup';
+import Button from 'src/Button';
+import ButtonGroup from 'src/ButtonGroup';
 
 const ButtonsDemo = () => (
   <div>
