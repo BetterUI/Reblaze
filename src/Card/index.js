@@ -6,7 +6,7 @@ import Item from './Item';
 
 const Card = ({ children, className, shadow, ...rest }) => {
   const modifiers = {
-    'c-card--high': shadow === 'hight',
+    'c-card--high': shadow === 'high',
     'c-card--higher': shadow === 'higher',
     'c-card--highest': shadow === 'highest'
   };
