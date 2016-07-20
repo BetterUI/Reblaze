@@ -24,7 +24,7 @@ Checkbox.propTypes = {
   children: PropTypes.any,
   className: PropTypes.string,
   success: PropTypes.bool,
-  error: PropTypes.error,
+  error: PropTypes.bool,
   size: PropTypes.oneOf(['xsmall', 'small', 'medium', 'large', 'xlarge', 'super'])
 };
 
