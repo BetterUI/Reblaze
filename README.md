@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Reblaze-logo.png"/>
+</p>
+
 # Reblaze
 
 [Blaze](https://github.com/BlazeCSS/blaze) components built with [React](https://github.com/facebook/react).
