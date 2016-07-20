@@ -1,8 +1,11 @@
 import React from 'react';
 import Card from 'src/Card';
+import { Link } from 'react-router';
+import Button from 'src/Button';
 
 const CardsDemo = () => (
   <div>
+    <Button primary><Link to="/home">Home</Link></Button>
     <Card>
       <Card.Divider heading>Heading</Card.Divider>
       <Card.Content>Content</Card.Content>

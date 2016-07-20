@@ -1,9 +1,11 @@
 import React from 'react';
 import Button from 'src/Button';
 import ButtonGroup from 'src/ButtonGroup';
+import { Link } from 'react-router';
 
 const ButtonsDemo = () => (
   <div>
+    <Button primary><Link to="/home">Home</Link></Button>
     <Button>Button</Button>
     <Button href="#">Link</Button>
     <Button primary>Button</Button>
