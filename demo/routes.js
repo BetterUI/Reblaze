@@ -7,6 +7,7 @@ import ButtonsDemo from 'demo/Buttons';
 import CardsDemo from 'demo/Cards';
 import InputsDemo from 'demo/Inputs';
 import HomeDemo from 'demo/Home';
+import AlignmentDemo from 'demo/Alignment';
 
 export default (
   <Route path="/" component={Layout}>
@@ -17,5 +18,6 @@ export default (
       <Route path="buttons" component={ButtonsDemo} />
       <Route path="cards" component={CardsDemo} />
       <Route path="inputs" component={InputsDemo} />
+      <Route path="alignment" component={AlignmentDemo} />
   </Route>
 );

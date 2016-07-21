@@ -8,6 +8,7 @@ const Home = () => (
     <Button secondary><Link to="/bubbles">Bubbles</Link></Button>
     <Button success><Link to="/buttons">Buttons</Link></Button>
     <Button error><Link to="/cards">Cards</Link></Button>
+    <Button primary><Link to="/alignment">Alignment</Link></Button>
   </div>
 );
 
