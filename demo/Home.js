@@ -9,6 +9,7 @@ const Home = () => (
     <Button success><Link to="/buttons">Buttons</Link></Button>
     <Button error><Link to="/cards">Cards</Link></Button>
     <Button primary><Link to="/alignment">Alignment</Link></Button>
+    <Button secondary><Link to="/trees">Trees</Link></Button>
   </div>
 );
 
