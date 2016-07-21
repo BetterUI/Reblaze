@@ -25,7 +25,7 @@ Alignment.propTypes = {
   className: PropTypes.string,
   vertical: PropTypes.bool,
   horizontal: PropTypes.bool,
-  height: PropTypes.num
+  height: PropTypes.string
 };
 
 export default Alignment;

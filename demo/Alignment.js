@@ -6,10 +6,10 @@ import { Link } from 'react-router';
 const AlignmentDemo = () => (
   <div>
     <Button primary><Link to="/home">Home</Link></Button>
-    <div>
+    <div style={{ background: '#cccccc' }}>
       <Alignment vertical height="100">vertical</Alignment>
     </div>
-    <div>
+    <div style={{ background: '#d0d7ec' }}>
       <Alignment horizontal height="200">horizontal</Alignment>
     </div>
   </div>
