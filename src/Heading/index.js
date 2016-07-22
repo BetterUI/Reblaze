@@ -19,7 +19,7 @@ const Heading = ({ children, className, size, ...rest }) => {
 
     case 'large':
       return (
-        <h3 className={classnames('c-heading c-heading--karge', className)} {...rest}>
+        <h3 className={classnames('c-heading c-heading--large', className)} {...rest}>
           {children}
         </h3>
       );

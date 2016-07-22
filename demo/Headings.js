@@ -7,8 +7,8 @@ const HeadingsDemo = () => (
     <Heading size="xlarge">xlarge</Heading>
     <Heading size="large">large</Heading>
     <Heading size="medium">medium</Heading>
-    <Heading size="xsmall">xsmall</Heading>
     <Heading size="small">small</Heading>
+    <Heading size="xsmall">xsmall</Heading>
   </div>
 );
 
