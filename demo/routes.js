@@ -9,6 +9,9 @@ import InputsDemo from 'demo/Inputs';
 import HomeDemo from 'demo/Home';
 import AlignmentDemo from 'demo/Alignment';
 import TreesDemo from 'demo/Trees';
+import DrawersDemo from 'demo/Drawers';
+import MenusDemo from 'demo/Menus';
+import HeadingsDemo from 'demo/Headings';
 
 export default (
   <Route path="/" component={Layout}>
@@ -20,6 +23,9 @@ export default (
       <Route path="cards" component={CardsDemo} />
       <Route path="inputs" component={InputsDemo} />
       <Route path="alignment" component={AlignmentDemo} />
+      <Route path="drawers" component={DrawersDemo} />
+      <Route path="menus" component={MenusDemo} />
+      <Route path="headings" component={HeadingsDemo} />
       <Route path="trees" component={TreesDemo} />
   </Route>
 );
