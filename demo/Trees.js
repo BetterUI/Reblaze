@@ -6,11 +6,11 @@ import { Link } from 'react-router';
 const TreesDemo = () => (
   <div>
     <Button primary><Link to="/home">Home</Link></Button>
-    <Trees animate animateOptions="slow">
+    <Trees animate="slow">
       <span>Directory 1</span>
       <Trees.Item expanded>
         <span>File 1</span>
-         <Trees animate animateOptions="slow">
+         <Trees animate="slow">
           <Trees.Item expanded>
             <span>File 1</span>
           </Trees.Item>

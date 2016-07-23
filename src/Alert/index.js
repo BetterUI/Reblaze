@@ -17,7 +17,6 @@ const Alert = ({ children, className, primary, secondary, success, error, closab
     'a-alerts__alert--left': animate === 'left',
     'a-alerts__alert--right': animate === 'right'
   };
-  console.log(parentModifiers);
   return (
     <div className={classnames('c-alerts', className, parentModifiers)} {...rest}>
       <div className={classnames('c-alerts__alert', modifiers)}>
