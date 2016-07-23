@@ -12,9 +12,9 @@ const AlertsDemo = () => (
     <Alert success closable>Alert success</Alert>
     <Alert error closable>Alert error</Alert>
     <div> Animations </div>
-    <Alert closable animate animateOptions="slow">Alert animate slow</Alert>
-    <Alert closable animate animateOptions="fast">Alert animate fast</Alert>
-    <Alert closable animate animateOptions="left">Alert animate left</Alert>
+    <Alert closable animate="slow">Alert animate slow</Alert>
+    <Alert closable animate="fast">Alert animate fast</Alert>
+    <Alert closable animate="left">Alert animate left</Alert>
   </div>
 );
 
