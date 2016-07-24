@@ -13,6 +13,7 @@ import DrawersDemo from 'demo/Drawers';
 import MenusDemo from 'demo/Menus';
 import HeadingsDemo from 'demo/Headings';
 import TogglesDemo from 'demo/Toggles';
+import ToastsDemo from 'demo/Toasts';
 
 export default (
   <Route path="/" component={Layout}>
@@ -27,6 +28,7 @@ export default (
       <Route path="drawers" component={DrawersDemo} />
       <Route path="menus" component={MenusDemo} />
       <Route path="headings" component={HeadingsDemo} />
+      <Route path="toasts" component={ToastsDemo} />
       <Route path="trees" component={TreesDemo} />
       <Route path="toggles" component={TogglesDemo} />
   </Route>
