@@ -18,6 +18,19 @@ const BubblesDemo = () => (
     <div>
       <Bubble position="left">Left</Bubble>
     </div>
+    <div> animate </div>
+    <div>
+      <Bubble position="left" animate="slow">slow</Bubble>
+    </div>
+    <div>
+      <Bubble position="right" animate="slow left">slow left</Bubble>
+    </div>
+    <div>
+      <Bubble position="right" animate="slow right">slow right</Bubble>
+    </div>
+    <div>
+      <Bubble position="down" animate="fast right">fast right</Bubble>
+    </div>
   </div>
 );
 
