@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import classnames from 'classnames';
+import { getClassName } from '../utils/animate';
 
 const Alert = ({ children, className, primary, secondary, success, error, closable, animate, ...rest }) => {
   const parentModifiers = {
@@ -9,14 +10,15 @@ const Alert = ({ children, className, primary, secondary, success, error, closab
     'c-alerts__alert--primary': primary,
     'c-alerts__alert--secondary': secondary,
     'c-alerts__alert--success': success,
-    'c-alerts__alert--error': error,
-    'a-alerts__alert--slow': animate === 'slow',
-    'a-alerts__alert--fast': animate === 'fast',
-    'a-alerts__alert--top': animate === 'top',
-    'a-alerts__alert--bottom': animate === 'bottom',
-    'a-alerts__alert--left': animate === 'left',
-    'a-alerts__alert--right': animate === 'right'
+    'c-alerts__alert--error': error
   };
+  if (animate !== undefined) {
+    const animateOptions = animate.split(' ');
+    for (let i = 0; i < animateOptions.length; i++) {
+      const classname = getClassName('a-alerts__alert', animateOptions[i]);
+      modifiers[classname] = true;
+    }
+  }
   return (
     <div className={classnames('c-alerts', className, parentModifiers)} {...rest}>
       <div className={classnames('c-alerts__alert', modifiers)}>
@@ -35,7 +37,7 @@ Alert.propTypes = {
   success: PropTypes.bool,
   error: PropTypes.bool,
   closable: PropTypes.bool,
-  animate: PropTypes.oneOf(['slow', 'fast', 'top', 'bottom', 'left', 'right'])
+  animate: PropTypes.string
 };
 
 export default Alert;
