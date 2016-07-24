@@ -12,6 +12,7 @@ const Home = () => (
     <Button secondary><Link to="/drawers">Drawers</Link></Button>
     <Button success><Link to="/headings">Headings</Link></Button>
     <Button error><Link to="/menus">Menus</Link></Button>
+    <Button secondary><Link to="/toggles">Toggles</Link></Button>
     <Button primary><Link to="/trees">Trees</Link></Button>
   </div>
 );

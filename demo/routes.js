@@ -12,6 +12,7 @@ import TreesDemo from 'demo/Trees';
 import DrawersDemo from 'demo/Drawers';
 import MenusDemo from 'demo/Menus';
 import HeadingsDemo from 'demo/Headings';
+import TogglesDemo from 'demo/Toggles';
 
 export default (
   <Route path="/" component={Layout}>
@@ -27,5 +28,6 @@ export default (
       <Route path="menus" component={MenusDemo} />
       <Route path="headings" component={HeadingsDemo} />
       <Route path="trees" component={TreesDemo} />
+      <Route path="toggles" component={TogglesDemo} />
   </Route>
 );
