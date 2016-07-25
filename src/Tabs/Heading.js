@@ -3,8 +3,8 @@ import classnames from 'classnames';
 
 const Heading = ({ children, className, active, disabled, ...rest }) => {
   const modifiers = {
-    'c-tab--heading--active': active,
-    'c-tab--heading--disabled': disabled
+    'c-tab-heading--active': active,
+    'c-tab-heading--disabled': disabled
   };
   return (
     <div className={classnames('c-tab-heading', className, modifiers)} {...rest}>

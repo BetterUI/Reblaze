@@ -4,9 +4,18 @@ import Headings from './Headings';
 import Heading from './Heading';
 import Tab from './Tab';
 
-const Tabs = ({ children, className, ...rest }) => {
+const Tabs = ({ children, className, animate, primary, secondary, success, error, ...rest }) => {
+  const modifiers = {
+    'a-tabs': animate !== undefined,
+    'a-tabs--slow': animate === 'slow',
+    'a-tabs--fast': animate === 'fast',
+    'c-tabs--primary': primary,
+    'c-tabs--secondary': secondary,
+    'c-tabs--success': success,
+    'c-tabs--error': error
+  };
   return (
-    <div className={classnames('c-tabs', className)} {...rest}>
+    <div className={classnames('c-tabs', className, modifiers)} {...rest}>
       {children}
     </div>
   );
@@ -15,7 +24,12 @@ const Tabs = ({ children, className, ...rest }) => {
 
 Tabs.propTypes = {
   children: PropTypes.any,
-  className: PropTypes.string
+  className: PropTypes.string,
+  primary: PropTypes.bool,
+  secondary: PropTypes.bool,
+  success: PropTypes.bool,
+  error: PropTypes.bool,
+  animate: PropTypes.oneOf(['slow', 'fast'])
 };
 
 Tabs.Headings = Headings;
