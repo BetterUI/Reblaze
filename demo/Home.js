@@ -11,6 +11,7 @@ const Home = () => (
     <Button primary><Link to="/cards">Cards</Link></Button>
     <Button secondary><Link to="/drawers">Drawers</Link></Button>
     <Button success><Link to="/headings">Headings</Link></Button>
+    <Button secondary><Link to="/modals">Modals</Link></Button>
     <Button error><Link to="/menus">Menus</Link></Button>
     <Button primary><Link to="/overlays">Overlays</Link></Button>
     <Button error><Link to="/ranges">Ranges</Link></Button>
