@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 
 const ModalsDemo = () => (
   <div>
-    <Modals highest >
+    <Modals highest ghost>
       <Modals.Header>
         Modal heading
       </Modals.Header>

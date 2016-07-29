@@ -13,6 +13,7 @@ import DrawersDemo from 'demo/Drawers';
 import MenusDemo from 'demo/Menus';
 import HeadingsDemo from 'demo/Headings';
 import ModalsDemo from 'demo/Modals';
+import NavsDemo from 'demo/Navs';
 import OverlaysDemo from 'demo/Overlays';
 import RangesDemo from 'demo/Ranges';
 import TabsDemo from 'demo/Tabs';
@@ -32,6 +33,7 @@ export default (
       <Route path="drawers" component={DrawersDemo} />
       <Route path="menus" component={MenusDemo} />
       <Route path="modals" component={ModalsDemo} />
+      <Route path="navs" component={NavsDemo} />
       <Route path="headings" component={HeadingsDemo} />
       <Route path="overlays" component={OverlaysDemo} />
       <Route path="ranges" component={RangesDemo} />

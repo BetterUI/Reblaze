@@ -13,6 +13,7 @@ const Home = () => (
     <Button success><Link to="/headings">Headings</Link></Button>
     <Button secondary><Link to="/modals">Modals</Link></Button>
     <Button error><Link to="/menus">Menus</Link></Button>
+    <Button error><Link to="/navs">Navs</Link></Button>
     <Button primary><Link to="/overlays">Overlays</Link></Button>
     <Button error><Link to="/ranges">Ranges</Link></Button>
     <Button primary><Link to="/tabs">Tabs</Link></Button>

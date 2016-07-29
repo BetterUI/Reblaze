@@ -7,10 +7,8 @@ import Body from './Body';
 import Footer from './Footer';
 
 const Modals = ({ children, className, ghost, high, higher, highest, animate, ...rest }) => {
-  const parentModifiers = {
-    'a-modal': animate !== undefined
-  };
   const modifiers = {
+    'a-modal': animate !== undefined,
     'c-modal--ghost': ghost,
     'c-modal--high': high,
     'c-modal--higher': higher,
@@ -26,7 +24,7 @@ const Modals = ({ children, className, ghost, high, higher, highest, animate, ..
   return (
     <div>
       <Overlays />
-      <div className={classnames('c-modal', className, parentModifiers)} {...rest}>
+      <div className={classnames('c-modal', className, modifiers)} {...rest}>
         {children}
       </div>
     </div>
