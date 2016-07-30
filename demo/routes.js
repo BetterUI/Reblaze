@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, IndexRedirect } from 'react-router';
 import Layout from 'demo/Layout';
+import AddressDemo from 'demo/Address';
 import AlertsDemo from 'demo/Alerts';
 import BubblesDemo from 'demo/Bubbles';
 import ButtonsDemo from 'demo/Buttons';
@@ -24,6 +25,7 @@ export default (
   <Route path="/" component={Layout}>
     <IndexRedirect to="/home" />
     <Route path="home" component={HomeDemo} />
+      <Route path="address" component={AddressDemo} />
       <Route path="alerts" component={AlertsDemo} />
       <Route path="bubbles" component={BubblesDemo} />
       <Route path="buttons" component={ButtonsDemo} />
