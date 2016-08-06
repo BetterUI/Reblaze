@@ -4,8 +4,10 @@ import { Link } from 'react-router';
 
 const Home = () => (
   <div>
+    <Button success><Link to="/address">Address</Link></Button>
     <Button primary><Link to="/alerts">Alerts</Link></Button>
     <Button secondary><Link to="/alignment">Alignment</Link></Button>
+    <Button success><Link to="/badges">Badges</Link></Button>
     <Button success><Link to="/bubbles">Bubbles</Link></Button>
     <Button error><Link to="/buttons">Buttons</Link></Button>
     <Button primary><Link to="/cards">Cards</Link></Button>
