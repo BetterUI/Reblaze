@@ -10,7 +10,7 @@ const TreesDemo = () => (
       <Navs.Item secondary>News</Navs.Item>
       <Navs.Item error>Help</Navs.Item>
     </Navs>
-    <Navs inline>
+    <Navs inline animate="slow">
       <Navs.Content>My App</Navs.Content>
       <Navs.Item success active>Home</Navs.Item>
       <Navs.Item primary>News</Navs.Item>
