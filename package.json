@@ -1,17 +1,28 @@
 {
-  "name": "reblaze",
+  "name": "react-blaze",
   "version": "0.0.1",
-  "description": "",
+  "description": "Blaze CSS component built with React",
   "scripts": {
     "test": "mocha tests --timeout 15000",
     "dev": "webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 3000",
     "watch": "webpack -d --watch --progress --colors",
     "build": "set NODE_ENV=production & webpack --progress --colors --config webpack.production.config.js"
   },
+  "keywords": [
+    "react",
+    "ecosystem-react",
+    "react-component",
+    "blaze"
+  ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/rui-infotrack/Reblaze"
   },
+  "main": "src/index.js",
   "author": "rui-infotrack <rui.cheng@infotrack.com.au>",
+  "contributors": [
+    "Robert Chang <cht8687@gmail.com> (https://github.com/cht8687)"
+  ],
   "devDependencies": {
     "autoprefixer": "^6.3.7",
     "babel-core": "^6.10.4",
