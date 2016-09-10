@@ -10,7 +10,9 @@ const Alert = ({ children, className, primary, secondary, success, error, closab
     'c-alerts__alert--primary': primary,
     'c-alerts__alert--secondary': secondary,
     'c-alerts__alert--success': success,
-    'c-alerts__alert--error': error
+    'c-alerts__alert--error': error,
+    'a-alerts--slow': animate === 'slow',
+    'a-alerts--fast': animate === 'fast'
   };
   if (animate !== undefined) {
     const animateOptions = animate.split(' ');
@@ -37,7 +39,7 @@ Alert.propTypes = {
   success: PropTypes.bool,
   error: PropTypes.bool,
   closable: PropTypes.bool,
-  animate: PropTypes.string
+  animate: PropTypes.oneOf(['slow', 'fast'])
 };
 
 export default Alert;
