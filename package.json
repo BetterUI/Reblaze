@@ -1,6 +1,6 @@
 {
   "name": "react-blaze",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Blaze CSS component built with React",
   "scripts": {
     "test": "mocha tests --timeout 15000",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rui-infotrack/Reblaze"
+    "url": "https://github.com/BetterUI/Reblaze"
   },
   "main": "src/index.js",
   "author": "rui-infotrack <rui.cheng@infotrack.com.au>",
