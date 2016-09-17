@@ -6,6 +6,8 @@
 
 [Blaze](https://github.com/BlazeCSS/blaze) components built with [React](https://github.com/facebook/react).
 
+You can find Documentations and examples in [Documentations](https://betterui.github.io/)
+
 Working in progress...
 
 ## Local setup
