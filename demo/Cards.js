@@ -22,7 +22,7 @@ const CardsDemo = () => (
       <Card.Divider heading>Heading</Card.Divider>
       <Card.Content>Content</Card.Content>
     </Card>
-    <Card>
+    <Card primary>
       <Card.Divider heading>Items</Card.Divider>
       <Card.Item>Card Item</Card.Item>
       <Card.Item>Card Item</Card.Item>
